@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>BaseFile</key>
+	<string>Chapters/Chapter1.playgroundchapter/Pages/Template.playgroundpage/main.swift</string>
+	<key>Diffs</key>
+	<array>
+		<dict>
+			<key>ModifiedContent</key>
+			<string>/*
+ Before you start:
+ * Make sure you disabled show results
+ * After launching the game please drag the window to fullscreen
+ * Have fun while learning :)
+ 
+ Your creator of this Playground
+ Daniel
+ */
+
+
+
+//import everything we need 
+import SpriteKit
+import UIKit
+import PlaygroundSupport
+
+
+let skView = SKView(frame: .zero)
+
+//set the game scene to the first explanation
+let gameScene = explainFirst(size: UIScreen.main.bounds.size)
+skView.presentScene(gameScene)
+
+PlaygroundPage.current.liveView = skView
+PlaygroundPage.current.wantsFullScreenLiveView = true
+</string>
+			<key>ModifiedRange</key>
+			<string>{0, 562}</string>
+			<key>OriginalContent</key>
+			<string>
+</string>
+			<key>OriginalRange</key>
+			<string>{0, 1}</string>
+		</dict>
+	</array>
+	<key>FormatVersion</key>
+	<integer>2</integer>
+</dict>
+</plist>
