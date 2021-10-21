@@ -1,3 +1,5 @@
 ## Quantum... What??
 
-In diesem Playground zur WWDC 2021 geht es darum den Quantencomputer spielerisch in seiner grundlegenden Funktionsweise zu verstehen.
+This Swift Playground is all about getting a basic understanding of Quantum Computers. 
+
+Have fun while learning something new!
