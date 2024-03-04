@@ -1,5 +1,3 @@
-## Quantum... What??
+## Quantum... What?? (Accepted)
 
-This Swift Playground is all about getting a basic understanding of Quantum Computers. 
-
-Have fun while learning something new!
+This Swift Playground is my submission for the Apple 2021 Schoolarship and is about getting a basic understanding of Quantum Computers. 
